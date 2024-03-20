@@ -1,62 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Agent Desk</title>
+    <base href="/" />
+    <div style="position: absolute">
+      <audio id="remoteVideo" autoplay="autoplay"></audio>
+      <audio id="localVideo" autoplay="autoplay" muted="muted"></audio>
+    </div>
 
-<head>
-  <meta charset="utf-8">
-  <title>Agent Desk</title>
-  <base href="./">
+    <!-- <link rel="manifest" href="./manifest.json"> -->
+    <script type="text/javascript" src="assets/cti/jQuery3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/cti/config.js"></script>
+    <script>
+      (function () {
+        const paramss = new URLSearchParams(window.location.search);
 
-  <!-- <link rel="manifest" href="./manifest.json"> -->
-  <script type="text/javascript" src="/agent-desk-ui/assets/cti/jQuery3.5.1.min.js"></script>
-  <script type="text/javascript" src="/agent-desk-ui/assets/cti/config.js"></script>
-  <script>
-    (function () {
-      const paramss = new URLSearchParams(window.location.search);
+        if (paramss.has("username") && paramss.has("authWithSSO") && paramss.has("ext") && (paramss.has("password") || paramss.has("authToken"))) {
+          console.log("Injecting Cisco CTI Wrapper ==>");
 
-      if (paramss.has("username") && paramss.has("authWithSSO") && paramss.has("ext") && (paramss.has("password") || paramss.has("authToken"))) {
-        console.log("injecting CTI lib ==>");
+          let jabber = document.createElement("script");
+          let ctiWrapper = document.createElement("script");
 
-        let jabber = document.createElement('script');
-        let ctiLib = document.createElement('script');
+          jabber.setAttribute("src", "assets/cti/jabberwerx.js");
+          ctiWrapper.setAttribute("src", "assets/cti/wrapper.js");
 
-        jabber.setAttribute('src', 'assets/cti/jabberwerx.js');
-        ctiLib.setAttribute('src', 'assets/cti/CTIJsLibrary.js');
+          document.head.appendChild(jabber);
+          document.head.appendChild(ctiWrapper);
+        }
 
-        document.head.appendChild(jabber);
-        document.head.appendChild(ctiLib);
-      }
-    })();
+        let sipLib = document.createElement("script");
+        let sipWrapper = document.createElement("script");
+        let crmService = document.createElement("script");
+        sipLib.setAttribute("src", "assets/cti/sip-libraries/sip-0.21.2.js");
+        sipWrapper.setAttribute("src", "assets/cti/sip-libraries/sip-wrapper.js");
+        crmService.setAttribute("src", "assets/cti/crm/crm-service.js");
+        document.head.appendChild(sipLib);
+        document.head.appendChild(sipWrapper);
+        document.head.appendChild(crmService);
+      })();
 
-    // <!-- Google Tag Manager -->
-    window.dataLayer = window.dataLayer || [];
+      // <!-- Google Tag Manager -->
+      window.dataLayer = window.dataLayer || [];
 
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-W3T32X5');
-// <!-- End Google Tag Manager -->
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js"
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-W3T32X5");
+      // <!-- End Google Tag Manager -->
+    </script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="assets/styles/bootstrap.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.70006e61680e9cb3c198.css"></head>
 
-  </script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="/agent-desk-ui/assets/styles/bootstrap.css" rel="stylesheet">
-
-<link rel="stylesheet" href="/agent-desk-ui/styles.b46975c440d7e445ea75.css"></head>
-
-<body>
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3T32X5"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3T32X5" height="0" width="0" style="display: none; visibility: hidden"></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-  <app-root></app-root>
-  <noscript>{{'globals.enable-javascript'  | translate }}</noscript>
-<script src="/agent-desk-ui/runtime.9be7e5ba6305a0bea804.js" defer></script><script src="/agent-desk-ui/polyfills-es5.e28ecddf7af34f637adb.js" nomodule defer></script><script src="/agent-desk-ui/polyfills.016e29ef78c558d1b760.js" defer></script><script src="/agent-desk-ui/scripts.459488cbf2f3882bb8d8.js" defer></script><script src="/agent-desk-ui/main.bd5fd3939932d8c168f8.js" defer></script></body>
-
+    <app-root></app-root>
+    <noscript>{{'globals.enable-javascript' | translate }}</noscript>
+  <script src="runtime.dc016ae376e0ae8f7adb.js" defer></script><script src="polyfills-es5.2835667c6564f926c60a.js" nomodule defer></script><script src="polyfills.8220421d9bbfcd4096f2.js" defer></script><script src="scripts.459488cbf2f3882bb8d8.js" defer></script><script src="main.99cd79a0b97a4aaa67a5.js" defer></script></body>
 </html>
