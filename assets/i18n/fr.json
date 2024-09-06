@@ -1,7 +1,10 @@
 {
   "snackbar":
   {
-    "Default-Outbound-Channel-Not-Found-for-channelType":"Default Outbound Channel Not Found for channelType_fr",
+    "Default-Outbound-Channel-Not-Found-for-channelType":"Default Canal sortant introuvable pour ChannelType_fr",
+    "The-wrap-up(s)-you-added-are-successfully-applied-to-the-conversation":"The wrap-up(s) you added are successfully applied to the conversation_fr",
+    "No-wrap-ups-added,-you-have-successfully-left-the-conversation":"No wrap-ups added, you have successfully left the conversation_fr",
+    "Wrap-up-time-expired,-you-are-removed-from-the-conversation":"Wrap-up time expired, you are removed from the conversation_fr",
     "Unable-to-process-event-as-conversation-is-not-present":"Unable to process event as conversation is not present_fr",
     "unable-to-connect-to-chat":"Unable to connect to chat_fr",
     "error-on-logout-request":"Error on logout request_fr",
@@ -28,7 +31,7 @@
     "you-are-logged-In-from-another-session":"You are logged In from another session_fr",
     "Profile-linked-successfully":"Profile linked successfully_fr",
     "CUSTOMER-LINKED-SUCCESSFULLY":"Customer Linked Successfully_fr",
-    "on":"on_fr",
+    "on":"On_fr",
     "The-conversation-is-going-to-linking-with":"The conversation is going to linking with _fr",
     "However-the-channel-identifier":"However the channel identifier _fr",
     "can-not-be-added-in":"can't be added in _fr",
@@ -77,6 +80,7 @@
     "Call-in-progress-sure-you-want-to-close-this-conversation":"Call in progress, Are you sure you want to close this conversation?_fr",
     "Transfer-request-placed-successfully":"Transfer request placed successfully_fr",
     "Conference-request-placed-successfully":"Conference request placed successfully_fr",
+    "Consult-request-placed-successfully":"Consult request placed successfully_fr",
     "Error-Getting-Queues-List":"Error Getting Queues List_fr",
     "Default-Outbound-Channel-Not-Found":"No Default Outbound Channel Found_fr",
     "Cisco-State-Sync-Success":"CISCO : Synchronizing state with cisco_fr",
@@ -105,7 +109,10 @@
     "queue-name":"Queue Name_fr",
     "the-conversation-with":"The conversation with_fr",
     "has-been-resumed":"has been resumed._fr",
-    "has-been-paused":"has been paused._fr"
+    "has-been-paused":"has been paused._fr",
+    "sorry-text-outbound-sms":"Sorry, the number",
+    "sorry-text-try-again-outbound-sms":" you entered is invalid. Please double-check the number and try again_fr "
+
   },
   "app-header": {
     "customer-conversation-view": "Customer Interactions_fr",
@@ -126,7 +133,7 @@
     "light-dark": "(Light or dark)_fr",
     "theme": "Theme_fr",
     "logout": "Logout_fr",
-    "active-agents-detail":"active agents detail"
+    "available-agents-detail":"available agents detail_fr"
   },
   "announcements": {
     "team-announcement": "Team Announcement_fr",
@@ -168,7 +175,8 @@
   },
   "call-controls":{
     "call-in-progress":"Call in progress_fr",
-    "initiating-audio-call":"Initiating Audio Call_fr"
+    "initiating-audio-call":"Initiating Call..._fr",
+    "ringing":"Ringing ..._fr"
   },
   "chat-features": {
     "send-sms":{
@@ -235,6 +243,9 @@
       "Transfer-To-Queue":"Transfer To Queue_fr",
       "Conference-Request":"Conference Request_fr",
       "Add-To-Conference":"Add To Conference_fr",
+      "Consult-Request":"Consult Request_fr",
+      "Queue-Consult":"Queue Consult_fr",
+      "Agent-Consult":"Agent Consult_fr",
       "Search-Queue":"Search Queue_fr",
       "whisper": "Whisper_fr",
       "bargein":"Bargein_fr",
@@ -290,7 +301,8 @@
       "pause-conversation":"Pause Conversation_fr",
       "are-you-sure-you-want-to-pause-this-conversation-for": "Are you sure you want to pause this conversation_fr",
       "are-you-sure-you-want-to-resume-conversation-with":"Are you sure you want to resume conversation with_fr",
-      "with":"with_fr"
+      "with":"with_fr",
+      "call-on-hold":"Call On Hold_fr"
     },
     "wrap-up-form": {
       "Add-Wrap-Up": "Add Wrap-Up_fr",
@@ -388,9 +400,12 @@
     "session-ended":"session ended_fr",
     "left-the-conversation":"left the conversation_fr",
     "transfer-request-has-been-placed-by":"transfer request has been placed by_fr",
+    "consult-request-has-been-placed-by":"consult request has been placed by_fr",
     "transfer-request-has-been-placed":"transfer request has been placed_fr",
+    "consult-request-has-been-placed":"consult request has been placed_fr",
     "conference-request-has-been-placed-by":"conference request has been placed by_fr",
     "No-agent-is-available-for":"No agent is available for_fr",
+    "consult-transfer-request-has-been-placed":"Consult transfer request has been placed_fr",
     "conference-request-has-cancelled": "Conference request has been cancelled_fr"
    },
   "globals": {

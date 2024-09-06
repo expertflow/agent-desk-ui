@@ -15,6 +15,9 @@
   .main-app-area{
     border: 0 !important;
   }
+  .back-to-interaction-trigger{
+    display: none;
+  }
 
   .unidentified-customer {
     .instruction-search {
@@ -66,7 +69,7 @@
     }
   }
   .chat-controls-mobile {
-    font-size: 12px;
+    font-size: var(--font-sm);
     border: 2px solid $main-color;
     border-radius: 100%;
     padding: 0;
@@ -245,7 +248,7 @@
         }
         p{
           text-align: center;
-          font-size: 16px;
+          font-size: var(--font-xl);
           color: #919191;
           padding: 0 15px;
         }
@@ -276,7 +279,7 @@
                 background: $blue-text-color;
                 float: right;
                 margin-right: 10px;
-                font-size: 14px;
+                font-size: var(--font-rg);
 
                 mat-icon{
                   font-size: 32px;
@@ -305,7 +308,7 @@
       border-top-width: 5px;
 
       mat-select{
-        font-size: 14px;
+        font-size: var(--font-rg);
         color: #000;
       }
     }
@@ -320,7 +323,7 @@
       border-radius: 15px;
 
       label{
-        font-size: 14px;
+        font-size: var(--font-rg);
         top: 14px;
         position: relative;
       }
@@ -384,7 +387,7 @@
       justify-content: space-between;
       margin: 0;
       color: #9F9F9F;
-      font-size: 15px;
+      font-size: var(--font-lg);
     }
   }
 }
@@ -416,7 +419,7 @@
     //line-height: 40px !important;
     color: #000 !important;
     background: transparent !important;
-    font-size: 16px !important;
+    font-size: var(--font-xl) !important;
     padding: 0 18px !important;
 
   }
@@ -453,7 +456,7 @@
 }
 
 button.close-menu-mobile {
-  font-size: 12px;
+  font-size: var(--font-sm);
   border: 2px solid $main-color;
   border-radius: 100%;
   padding: 0;
@@ -494,7 +497,7 @@ button.close-menu-mobile {
 
   h5{
     padding: 10px;
-    font-size: 16px;
+    font-size: var(--font-xl);
     color: #c4c4c4;
     font-weight: 400;
     margin: 0;
@@ -513,7 +516,7 @@ button.close-menu-mobile {
     padding: 2px 15px;
     border: 0;
     button {
-      font-size: 14px;
+      font-size: var(--font-rg);
       font-weight: 400;
     }
 
@@ -582,7 +585,7 @@ button.close-menu-mobile {
 
                 b{
                   display: inline-block;
-                  font-size: 11px;
+                  font-size: var(--font-xs);
                   margin-left: 2px;
                 }
               }

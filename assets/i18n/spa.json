@@ -1,7 +1,10 @@
 {
   "snackbar":
   {
-    "Default-Outbound-Channel-Not-Found-for-channelType":"Default Outbound Channel Not Found for channelType_spa",
+    "Default-Outbound-Channel-Not-Found-for-channelType":"Canal de salida predeterminado no encontrado para channelType_spa",
+    "The-wrap-up(s)-you-added-are-successfully-applied-to-the-conversation":"The wrap-up(s) you added are successfully applied to the conversation_spa",
+    "No-wrap-ups-added,-you-have-successfully-left-the-conversation":"No wrap-ups added, you have successfully left the conversation_spa",
+    "Wrap-up-time-expired,-you-are-removed-from-the-conversation":"Wrap-up time expired, you are removed from the conversation_spa",
     "Unable-to-process-event-as-conversation-is-not-present":"Unable to process event as conversation is not present_spa",
     "unable-to-connect-to-chat":"Unable to connect to chat_spa",
     "error-on-logout-request":"Error on logout request_spa",
@@ -28,7 +31,7 @@
     "you-are-logged-In-from-another-session":"You are logged In from another session_spa",
     "Profile-linked-successfully":"Profile linked successfully_spa",
     "CUSTOMER-LINKED-SUCCESSFULLY":"Customer Linked Successfully_spa",
-    "on":"on_spa",
+    "on":"On_spa",
     "The-conversation-is-going-to-linking-with":"The conversation is going to linking with _spa",
     "However-the-channel-identifier":"However the channel identifier _spa",
     "can-not-be-added-in":"can't be added in _spa",
@@ -77,6 +80,7 @@
     "Call-in-progress-sure-you-want-to-close-this-conversation":"Call in progress, Are you sure you want to close this conversation?_spa",
     "Transfer-request-placed-successfully":"Transfer request placed successfully_spa",
     "Conference-request-placed-successfully":"Conference request placed successfully_spa",
+    "Consult-request-placed-successfully":"Consult request placed successfully_spa",
     "Error-Getting-Queues-List":"Error Getting Queues List_spa",
     "Default-Outbound-Channel-Not-Found":"No Default Outbound Channel Found_spa",
     "Cisco-State-Sync-Success":"CISCO : Synchronizing state with cisco_spa",
@@ -105,7 +109,10 @@
     "queue-name":"Queue Name_spa",
     "the-conversation-with":"The conversation with_spa",
     "has-been-resumed":"has been resumed._spa",
-    "has-been-paused":"has been paused._spa"
+    "has-been-paused":"has been paused._spa",
+    "sorry-text-outbound-sms":"Sorry, the number",
+    "sorry-text-try-again-outbound-sms":" you entered is invalid. Please double-check the number and try again_spa"
+
   },
   "app-header": {
     "customer-conversation-view": "Customer Interactions_spa",
@@ -126,7 +133,7 @@
     "light-dark": "(Light or dark)_spa",
     "theme": "Theme_spa",
     "logout": "Logout_spa",
-    "active-agents-detail":"active agents detail"
+    "available-agents-detail":"available agents detail_spa"
   },
   "announcements": {
     "team-announcement": "Team Announcement_spa",
@@ -168,7 +175,8 @@
   },
   "call-controls":{
     "call-in-progress":"Call in progress_spa",
-    "initiating-audio-call":"Initiating Audio Call_spa"
+    "initiating-audio-call":"Initiating Call..._spa",
+    "ringing":"Ringing ..._spa"
   },
   "chat-features": {
     "send-sms":{
@@ -235,6 +243,9 @@
       "Transfer-To-Queue":"Transfer To Queue_spa",
       "Conference-Request":"Conference Request_spa",
       "Add-To-Conference":"Add To Conference_spa",
+      "Consult-Request":"Consult Request_spa",
+      "Queue-Consult":"Queue Consult_spa",
+      "Agent-Consult":"Agent Consult_spa",
       "Search-Queue":"Search Queue_spa",
       "whisper": "Whisper_spa",
       "bargein":"Bargein_spa",
@@ -290,7 +301,8 @@
       "pause-conversation":"Pause Conversation_spa",
       "are-you-sure-you-want-to-pause-this-conversation-for": "Are you sure you want to pause this conversation for_spa",
       "are-you-sure-you-want-to-resume-conversation-with":"Are you sure you want to resume conversation with_spa",
-      "with":"with_spa"
+      "with":"with_spa",
+      "call-on-hold":"Call On Hold_spa"
     },
     "wrap-up-form": {
       "Add-Wrap-Up": "Add Wrap-Up_spa",
@@ -388,8 +400,11 @@
     "session-ended":"session ended_spa",
     "left-the-conversation":"left the conversation_spa",
     "transfer-request-has-been-placed-by":"transfer request has been placed by_spa",
+    "consult-request-has-been-placed-by":"consult request has been placed by_spa",
     "transfer-request-has-been-placed":"transfer request has been placed_spa",
+    "consult-request-has-been-placed":"consult request has been placed_spa",
     "conference-request-has-been-placed-by":"conference request has been placed by_spa",
+    "consult-transfer-request-has-been-placed":"Consult transfer request has been placed_spa",
     "No-agent-is-available-for":"No agent is available for_spa",
     "conference-request-has-cancelled": "Conference request has been cancelled_spa"
    },

@@ -1,7 +1,10 @@
 {
   "snackbar":
   {
-    "Default-Outbound-Channel-Not-Found-for-channelType":"Default Outbound Channel Not Found for channelType_ar",
+    "Default-Outbound-Channel-Not-Found-for-channelType":"لم يتم العثور على القناة الصادرة الافتراضية لـchannelType_ar",
+    "The-wrap-up(s)-you-added-are-successfully-applied-to-the-conversation":"The wrap-up(s) you added are successfully applied to the conversation_ar",
+    "No-wrap-ups-added,-you-have-successfully-left-the-conversation":"No wrap-ups added, you have successfully left the conversation_ar",
+    "Wrap-up-time-expired,-you-are-removed-from-the-conversation":"Wrap-up time expired, you are removed from the conversation_ar",
     "Unable-to-process-event-as-conversation-is-not-present":"Unable to process event as conversation is not present_ar",
     "unable-to-connect-to-chat":"Unable to connect to chat_ar",
     "error-on-logout-request":"Error on logout request_ar",
@@ -28,7 +31,7 @@
     "you-are-logged-In-from-another-session":"You are logged In from another session_ar",
     "Profile-linked-successfully":"Profile linked successfully_ar",
     "CUSTOMER-LINKED-SUCCESSFULLY":"Customer Linked Successfully_ar",
-    "on":"on_ar",
+    "on":"On_ar",
     "The-conversation-is-going-to-linking-with":"The conversation is going to linking with _ar",
     "However-the-channel-identifier":"However the channel identifier _ar",
     "can-not-be-added-in":"can't be added in _ar",
@@ -77,6 +80,7 @@
     "Call-in-progress-sure-you-want-to-close-this-conversation":"Call in progress, Are you sure you want to close this conversation?_ar",
     "Transfer-request-placed-successfully":"Transfer request placed successfully_ar",
     "Conference-request-placed-successfully":"Conference request placed successfully_ar",
+    "Consult-request-placed-successfully":"Consult request placed successfully_ar",
     "Error-Getting-Queues-List":"Error Getting Queues List_ar",
     "Default-Outbound-Channel-Not-Found":"No Default Outbound Channel Found_ar",
     "Cisco-State-Sync-Success":"CISCO : Synchronizing state with cisco_ar",
@@ -105,7 +109,10 @@
     "queue-name":"Queue Name_ar",
     "the-conversation-with":"The conversation with_ar",
     "has-been-resumed":"has been resumed._ar",
-    "has-been-paused":"has been paused._ar"
+    "has-been-paused":"has been paused._ar",
+    "sorry-text-outbound-sms":"Sorry, the number",
+    "sorry-text-try-again-outbound-sms":" you entered is invalid. Please double-check the number and try again_ar "
+
   },
   "app-header": {
     "customer-conversation-view": "Customer Interactions_ar",
@@ -126,7 +133,7 @@
     "light-dark": "(Light or dark)_ar",
     "theme": "Theme_ar",
     "logout": "Logout_ar",
-    "active-agents-detail":"active agents detail"
+    "available-agents-detail":"available agents detail_ar"
   },
   "announcements": {
     "team-announcement": "Team Announcement_ar",
@@ -168,7 +175,8 @@
   },
   "call-controls":{
     "call-in-progress":"Call in progress_ar",
-    "initiating-audio-call":"Initiating Audio Call_ar"
+    "initiating-audio-call":"Initiating Call..._ar",
+    "ringing":"Ringing ..._ar"
   },
   "chat-features": {
     "send-sms":{
@@ -235,6 +243,9 @@
       "Transfer-To-Queue":"Transfer To Queue_ar",
       "Conference-Request":"Conference Request_ar",
       "Add-To-Conference":"Add To Conference_ar",
+      "Consult-Request":"Consult Request_ar",
+      "Queue-Consult":"Queue Consult_ar",
+      "Agent-Consult":"Agent Consult_ar",
       "Search-Queue":"Search Queue_ar",
       "whisper": "Whisper_ar",
       "bot-suggestions-available": "Bot suggestions are available. Type '/' for viewing_ar",
@@ -290,7 +301,8 @@
       "are-you-sure-you-want-to-pause-this-conversation-for": "Are you sure you want to pause this conversation for_ar",
       "are-you-sure-you-want-to-resume-conversation-with":"Are you sure you want to resume conversation with_ar",
       "with":"with_ar",
-      "bargein":"Bargein"
+      "bargein":"BargeIn",
+      "call-on-hold":"Call On Hold_ar"
     },
     "wrap-up-form": {
       "Add-Wrap-Up": "Add Wrap-Up_ar",
@@ -388,9 +400,12 @@
     "session-ended":"session ended_ar",
     "left-the-conversation":"left the conversation_ar",
     "transfer-request-has-been-placed-by":"transfer request has been placed by_ar",
+    "consult-request-has-been-placed-by":"consult request has been placed by_ar",
     "transfer-request-has-been-placed":"transfer request has been placed_ar",
+    "consult-request-has-been-placed":"consult request has been placed_ar",
     "conference-request-has-been-placed-by":"conference request has been placed by_ar",
     "No-agent-is-available-for":"No agent is available for_ar",
+    "consult-transfer-request-has-been-placed":"Consult transfer request has been placed_ar",
     "conference-request-has-cancelled": "Conference request has been cancelled_ar"
    },
   "globals": {

@@ -10566,6 +10566,7 @@ class SessionDescriptionHandler {
         this.iceGatheringCompletePromise = new Promise((resolve, reject) => {
             this.iceGatheringCompleteResolve = resolve;
             this.iceGatheringCompleteReject = reject;
+            timeout = 500;
             if (timeout > 0) {
                 this.logger.debug("SessionDescriptionHandler.waitForIceGatheringToComplete - timeout in " + timeout);
                 this.iceGatheringCompleteTimeoutId = setTimeout(() => {

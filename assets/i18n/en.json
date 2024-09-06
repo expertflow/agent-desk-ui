@@ -2,6 +2,9 @@
   "snackbar":
   {
     "Default-Outbound-Channel-Not-Found-for-channelType":"Default Outbound Channel Not Found for channelType",
+    "The-wrap-up(s)-you-added-are-successfully-applied-to-the-conversation":"The wrap-up(s) you added are successfully applied to the conversation",
+    "No-wrap-ups-added,-you-have-successfully-left-the-conversation":"No wrap-ups added, you have successfully left the conversation",
+    "Wrap-up-time-expired,-you-are-removed-from-the-conversation":"Wrap-up time expired, you are removed from the conversation",
     "Unable-to-process-event-as-conversation-is-not-present":"Unable to process event as conversation is not present",
     "unable-to-connect-to-chat":"Unable to connect to chat",
     "error-on-logout-request":"Error on logout request",
@@ -28,7 +31,7 @@
     "you-are-logged-In-from-another-session":"You are logged In from another session",
     "Profile-linked-successfully":"Profile linked successfully",
     "CUSTOMER-LINKED-SUCCESSFULLY":"Customer Linked Successfully",
-    "on":"on",
+    "on":"On",
     "The-conversation-is-going-to-linking-with":"The conversation is going to linking with ",
     "However-the-channel-identifier":"However the channel identifier ",
     "can-not-be-added-in":"can't be added in ",
@@ -77,6 +80,7 @@
     "Call-in-progress-sure-you-want-to-close-this-conversation":"Call in progress, Are you sure you want to close this conversation?",
     "Transfer-request-placed-successfully":"Transfer request placed successfully",
     "Conference-request-placed-successfully":"Conference request placed successfully",
+    "Consult-request-placed-successfully":"Consult request placed successfully",
     "Error-Getting-Queues-List":"Error Getting Queues List",
     "Default-Outbound-Channel-Not-Found":"No Default Outbound Channel Found",
     "Cisco-State-Sync-Success":"CISCO : Synchronizing state with cisco",
@@ -105,8 +109,9 @@
     "Customer-No":"Customer No",
     "the-conversation-with":"The conversation with",
     "has-been-resumed":"has been resumed.",
-    "has-been-paused":"has been paused."
-
+    "has-been-paused":"has been paused.",
+    "sorry-text-outbound-sms":"Sorry, the number",
+    "sorry-text-try-again-outbound-sms":" you entered is invalid. Please double-check the number and try again "
   },
   "app-header": {
     "customer-conversation-view": "Customer Interactions",
@@ -127,7 +132,7 @@
     "light-dark": "(Light or dark)",
     "theme": "Theme",
     "logout": "Logout",
-    "active-agents-detail":"active agents detail"
+    "available-agents-detail":"available agents detail"
   },
   "announcements": {
     "team-announcement": "Team Announcement",
@@ -169,7 +174,8 @@
   },
   "call-controls":{
     "call-in-progress":"Call in progress",
-    "initiating-audio-call":"Initiating Audio Call"
+    "initiating-call":"Initiating Call ...",
+    "ringing":"Ringing ..."
   },
   "chat-features": {
     "send-sms":{
@@ -235,6 +241,9 @@
       "Conference":"Conference",
       "Transfer-To-Queue":"Transfer To Queue",
       "Conference-Request":"Conference Request",
+      "Consult-Request":"Consult Request",
+      "Queue-Consult":"Queue Consult",
+      "Agent-Consult":"Agent Consult",
       "Add-To-Conference":"Add To Conference",
       "Search-Queue":"Search Queue",
       "whisper": "Whisper",
@@ -291,7 +300,8 @@
       "pause-conversation":"Pause Conversation",
       "are-you-sure-you-want-to-pause-this-conversation-for": "Are you sure you want to pause this conversation for",
       "are-you-sure-you-want-to-resume-conversation-with":"Are you sure you want to resume conversation with",
-      "with":"with"
+      "with":"with",
+      "call-on-hold":"Call On Hold"
     },
     "wrap-up-form": {
       "Add-Wrap-Up": "Add Wrap-Up",
@@ -390,7 +400,11 @@
     "session-ended":"session ended",
     "left-the-conversation":"left the conversation",
     "transfer-request-has-been-placed-by":"transfer request has been placed by",
+    "consult-request-has-been-placed-by":"consult request has been placed by",
     "transfer-request-has-been-placed":"transfer request has been placed",
+    "consult-request-has-been-placed":"consult request has been placed",
+    "consult-request-was-placed":"consult request was placed",
+    "consult-transfer-request-has-been-placed":"Consult transfer request has been placed",
     "conference-request-has-been-placed-by":"conference request has been placed by",
     "No-agent-is-available-for":"No agent is available for",
     "conference-request-has-cancelled": "Conference request has been cancelled"

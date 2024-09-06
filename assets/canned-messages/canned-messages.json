@@ -1,0 +1,178 @@
+{
+  "en": {
+    "marketing": [
+      "مرحباً كيف حالك ",
+      "Здравей как си",
+      "Habari, habari",
+      "ہیلو آپ کیسے ہیں",
+      "Bonjour comment allez-vous",
+      "Hola, cómo estás",
+      "Hallo, wie geht es dir",
+      "Здравей, как си"
+    ],
+    "information": [
+      "Would you like information about internet packages",
+      "In today's fast-paced technological landscape, adaptability and continuous learning are more critical than ever. With rapid advancements in artificial intelligence, machine learning, and data analytics, industries are undergoing profound transformations. To navigate these changes effectively, professionals must remain informed and agile. Embracing a growth mindset, wherein challenges are seen as opportunities for improvement, is indispensable. This mindset cultivates resilience and fosters innovation, empowering individuals and organizations to flourish amid uncertainty. The importance of lifelong learning is increasingly recognized by education systems and workplaces alike. Micro-credentials, online courses, and professional development programs offer accessible avenues for acquiring new skills, facilitating personal and professional growth. Furthermore, collaboration and interdisciplinary approaches play a pivotal role in addressing complex global challenges. By leveraging diverse perspectives and expertise, teams can develop innovative solutions that transcend organizational boundaries. This collaborative spirit extends to partnerships between academia, industry, and government, driving collective progress. In today's dynamic era, ethical considerations must remain at the forefront of technological development. Prioritizing responsible technology practices, safeguarding data privacy, and mitigating biases in algorithms are imperative. Upholding ethical standards ensures that technological advancements benefit society as a whole, promoting inclusivity and equity. In conclusion, success in our ever-changing world hinges on embracing lifelong learning, fostering collaboration, and upholding ethical principles. By embodying these values, we can harness the transformative power of technology to create a brighter future for all",
+      "I am sharing the details of the latest internet package"
+    ]
+  },
+  "ger": {
+    "helfen": [
+      "Hallo, wie geht es dir ger",
+      "Wie kann ich dir helfen?"
+    ],
+    "information": [
+      "Möchten Sie Informationen zu Internet paketen?",
+      "Ich teile die Details des neuesten Internet pakets"
+    ]
+  },
+  "fr": {
+    "vas-tu a": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider a?",
+      "Comment puis-je vous aider b?",
+      "Comment puis-je vous aider c?",
+      "Comment puis-je vous aider d?",
+      "Comment puis-je vous aider e?",
+      "Comment puis-je vous aider f?",
+      "Comment puis-je vous aider g?",
+      "Comment puis-je vous aider h?",
+      "Comment puis-je vous aider i?",
+      "Comment puis-je vous aider j?",
+      "Comment puis-je vous aider k?"
+    ],
+    "vas-tu b": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu c": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu d": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu e": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu f": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu g": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu h": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu i": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu j": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu k": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu l": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu m": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu n": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu 0": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu p": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu q": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "vas-tu r": [
+      "salut comment vas-tu fr",
+      "Comment puis-je vous aider?"
+    ],
+    "information": [
+      "Vous souhaitez des informations sur les forfaits internet",
+      "je partage les détails du dernier forfait Internet"
+    ]
+  },
+  "spa": {
+    "estás": [
+      "hola, cómo estás spa",
+      "Como puedo ayudarte?"
+    ],
+    "information": [
+      "¿Quieres información sobre paquetes de internet?",
+      "Estoy compartiendo los detalles del último paquete de Internet"
+    ]
+  },
+  "ita": {
+    "aiutarti": [
+      "Ciao, come stai ita",
+      "Come posso aiutarti?"
+    ],
+    "information": [
+      "Desideri informazioni sui pacchetti internet",
+      "Sto condividendo i dettagli dell'ultimo pacchetto Internet"
+    ]
+  },
+  "ar": {
+    "marketing": [
+      "مرحباً كيف حالك",
+      "مرحباً كيف حالك"
+    ],
+    "information": [
+      "مرحباً كيف حالك",
+      "مرحباً كيف حالك"
+    ]
+  },
+  "bg": {
+    "marketing": [
+      "Здравей как си",
+      "Здравей как си"
+    ],
+    "information": [
+      "Здравей как си",
+      "Здравей как си"
+    ]
+  },
+  "ur": {
+    "marketing": [
+      "ہیلو آپ کیسے ہیں",
+      "ہیلو آپ کیسے ہیں"
+    ],
+    "information": [
+      "ہیلو آپ کیسے ہیں",
+      "ہیلو آپ کیسے ہیں"
+    ]
+  },
+  "sw": {
+    "marketing": [
+      "Habari, habari",
+      "Habari, habari"
+    ],
+    "information": [
+      "Habari, habari",
+      "Habari, habari"
+    ]
+  }
+  
+}

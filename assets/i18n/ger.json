@@ -2,6 +2,9 @@
   "snackbar":
   {
     "Default-Outbound-Channel-Not-Found-for-channelType":"Default Outbound Channel Not Found for channelType_ger",
+    "The-wrap-up(s)-you-added-are-successfully-applied-to-the-conversation":"The wrap-up(s) you added are successfully applied to the conversation_ger",
+    "No-wrap-ups-added,-you-have-successfully-left-the-conversation":"No wrap-ups added, you have successfully left the conversation_ger",
+    "Wrap-up-time-expired,-you-are-removed-from-the-conversation":"Wrap-up time expired, you are removed from the conversation_ger",
     "Unable-to-process-event-as-conversation-is-not-present":"Unable to process event as conversation is not present_ger",
     "unable-to-connect-to-chat":"Unable to connect to chat_ger",
     "error-on-logout-request":"Error on logout request_ger",
@@ -28,7 +31,7 @@
     "you-are-logged-In-from-another-session":"You are logged In from another session_ger",
     "Profile-linked-successfully":"Profile linked successfully_ger",
     "CUSTOMER-LINKED-SUCCESSFULLY":"Customer Linked Successfully_ger",
-    "on":"on_ger",
+    "on":"On_ger",
     "The-conversation-is-going-to-linking-with":"The conversation is going to linking with _ger",
     "However-the-channel-identifier":"However the channel identifier _ger",
     "can-not-be-added-in":"can't be added in _ger",
@@ -77,6 +80,7 @@
     "Call-in-progress-sure-you-want-to-close-this-conversation":"Call in progress, Are you sure you want to close this conversation?_ger",
     "Transfer-request-placed-successfully":"Transfer request placed successfully_ger",
     "Conference-request-placed-successfully":"Conference request placed successfully_ger",
+    "Consult-request-placed-successfully":"Consult request placed successfully_ger",
     "Error-Getting-Queues-List":"Error Getting Queues List_ger",
     "Default-Outbound-Channel-Not-Found":"No Default Outbound Channel Found_ger",
     "Cisco-State-Sync-Success":"CISCO : Synchronizing state with cisco_ger",
@@ -105,7 +109,10 @@
     "queue-name":"Queue Name_ger",
     "the-conversation-with":"The conversation with_ger",
     "has-been-resumed":"has been resumed._ger",
-    "has-been-paused":"has been paused._ger"
+    "has-been-paused":"has been paused._ger",
+    "sorry-text-outbound-sms":"Sorry, the number",
+    "sorry-text-try-again-outbound-sms":" you entered is invalid. Please double-check the number and try again_ger "
+
   },
   "app-header": {
     "customer-conversation-view": "Customer Interactions_ger",
@@ -126,7 +133,7 @@
     "light-dark": "(Light or dark)_ger",
     "theme": "Theme_ger",
     "logout": "Logout_ger",
-    "active-agents-detail":"active agents detail_ger"
+    "available-agents-detail":"available agents detail_ger"
   },
   "announcements": {
     "team-announcement": "Team Announcement_ger",
@@ -168,7 +175,8 @@
   },
   "call-controls":{
     "call-in-progress":"Call in progress_ger",
-    "initiating-audio-call":"Initiating Audio Call_ger"
+    "initiating-audio-call":"Initiating Call..._ger",
+    "ringing":"Ringing ..._ger"
   },
   "chat-features": {
     "send-sms":{
@@ -235,6 +243,9 @@
       "Transfer-To-Queue":"Transfer To Queue_ger",
       "Conference-Request":"Conference Request_ger",
       "Add-To-Conference":"Add To Conference_ger",
+      "Consult-Request":"Consult Request_ger",
+      "Queue-Consult":"Queue Consult_ger",
+      "Agent-Consult":"Agent Consult_ger",
       "Search-Queue":"Search Queue_ger",
       "whisper": "Whisper_ger",
       "bargein":"Bargein_ger",
@@ -290,7 +301,8 @@
       "pause-conversation":"Pause Conversation_ger",
       "are-you-sure-you-want-to-pause-this-conversation-for": "Are you sure you want to pause this conversation for_ger",
       "are-you-sure-you-want-to-resume-conversation-with":"Are you sure you want to resume conversation with_ger",
-      "with":"with_ger"
+      "with":"with_ger",
+      "call-on-hold":"Call On Hold_ger"
     },
     "wrap-up-form": {
       "Add-Wrap-Up": "Add Wrap-Up_ger",
@@ -388,9 +400,12 @@
     "session-ended":"session ended_ger",
     "left-the-conversation":"left the conversation_ger",
     "transfer-request-has-been-placed-by":"transfer request has been placed by_ger",
+    "consult-request-has-been-placed-by":"consult request has been placed by_ger",
     "transfer-request-has-been-placed":"transfer request has been placed_ger",
+    "consult-request-has-been-placed":"consult request has been placed_ger",
     "conference-request-has-been-placed-by":"conference request has been placed by_ger",
     "No-agent-is-available-for":"No agent is available for_ger",
+    "consult-transfer-request-has-been-placed":"Consult transfer request has been placed_ger",
     "conference-request-has-cancelled": "Conference request has been cancelled_ger"
    },
   "globals": {

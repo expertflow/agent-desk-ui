@@ -547,6 +547,10 @@ $theme: mat-light-theme($primary, $accent, $warn);
       .mat-icon-button.send-btn {
         filter: brightness(5);
       }
+      .channel-switching-trigger{
+        background: #16162C !important;
+        border: 1px solid #2E2E42 !important;
+      }
     }
 
     .int-date {
@@ -1554,24 +1558,26 @@ $theme: mat-light-theme($primary, $accent, $warn);
   .opener {
     border: 1px solid #606264 !important;
   }
-
-  .drop {
+  .drop{
     .c-btn {
       border: 1px solid rgba(255, 255, 255, 0.3) !important;
     }
-
+  }
+  angular2-multiselect {
+    color: mat-contrast($dark-primary, 600) !important;
     .select-all,
     .list-filter {
       border-bottom: 1px solid #cccccc4d !important;
 
       input {
         background: transparent !important;
+        color: mat-contrast($dark-primary, 600) !important;
       }
     }
 
     .list-area {
       border: 1px solid rgba(255, 255, 255, 0.3) !important;
-      background: mat-color($dark-primary, 400) !important;
+      background: mat-color($dark-primary) !important;
       box-shadow: 0 1px 5px rgba(29, 29, 29, 0.5) !important;
     }
 
@@ -1591,28 +1597,32 @@ $theme: mat-light-theme($primary, $accent, $warn);
         border-color: mat-color($dark-primary, 600) !important;
       }
     }
-  }
-
-  .custom-dropdown.lbl-filter-search {
-    color: mat-contrast($dark-primary, 600) !important;
-
-    .arrow-up {
-      border-bottom-color: mat-color($dark-primary) !important;
-      filter: drop-shadow(0px 0px 0px #fff);
-    }
-
-    .list-area {
-      background: mat-color($dark-primary) !important;
-      border: 1px solid #ffffff30;
-    }
-
-    .list-filter {
-      input {
-        color: mat-contrast($dark-primary, 600) !important;
-        background: transparent;
+      .arrow-up {
+        border-bottom-color: mat-color($dark-primary) !important;
+        filter: drop-shadow(0px 0px 0px #fff);
       }
-    }
   }
+
+  //angular2-multiselect {
+  //  color: mat-contrast($dark-primary, 600) !important;
+  //
+  //  .arrow-up {
+  //    border-bottom-color: mat-color($dark-primary) !important;
+  //    filter: drop-shadow(0px 0px 0px #fff);
+  //  }
+  //
+  //  .list-area {
+  //    background: mat-color($dark-primary) !important;
+  //    border: 1px solid #ffffff30;
+  //  }
+  //
+  //  .list-filter {
+  //    input {
+  //      color: mat-contrast($dark-primary, 600) !important;
+  //      background: transparent;
+  //    }
+  //  }
+  //}
 
   ul.customer-labels li {
     border-color: mat-color($dark-primary) !important;
@@ -1973,5 +1983,20 @@ $theme: mat-light-theme($primary, $accent, $warn);
       }
     }
   }
+  .app-main-area{
+    background: mat-color($dark-primary, 500) !important;
+  }
 
+  .agent-sla-timer{
+    background: #16162C !important;
+    box-shadow: 0px 0px 0px 1px #2E2E42;
+    time{
+      color: #AAA9A9 !important;
+    }
+  }
+
+
+  .resume-dialog-header h4{
+    color: #D3D3D3 !important;
+  }
 }
